@@ -1,5 +1,9 @@
 # aai4r-Situation-Recognition
 
+### Install
+Reference package-list.txt file.
+
+### requirments
 Download files as below structure.
 
     .
@@ -22,6 +26,6 @@ https://drive.google.com/drive/u/0/folders/1I75NzFC18XQjYrbz9XQXZiWMAoSyDax1?ths
 python ggnn.py
 
 ### Train
-Revise train epoch in ggnn.py file
+Revise train epoch in ggnn.py file.
 
 Note: This will overwrite current model_best.pth.tar file.
