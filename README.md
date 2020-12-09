@@ -1,9 +1,8 @@
 # aai4r-Situation-Recognition
 
-### Install
-Reference package-list.txt file.
+### Install requirments & download files
+To install requirments, refer package-list.txt file.
 
-### requirments
 Download files as below structure.
 
     .
