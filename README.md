@@ -31,7 +31,7 @@ Note: This will overwrite current model_best.pth.tar file.
 
 ### Online demo
 
-Use pretrained model "model_best_online.pth.tar"
+Use pretrained model "model_best_online.pth.tar" [google drive link](https://drive.google.com/file/d/1R8J1Gc70fyKYTM5NZ5x8N9J_DQppweDE/view?usp=sharing)
 
 You can change model to "model_best.pth.tar" after train by ggnn.py
   * change this line
