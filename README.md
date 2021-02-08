@@ -28,3 +28,18 @@ python ggnn.py
 Revise train epoch in ggnn.py file.
 
 Note: This will overwrite current model_best.pth.tar file.
+
+### Online demo
+
+Use pretrained model "model_best_online.pth.tar"
+
+You can change model to ""model_best.pth.tar"" after train by ggnn.py
+  * change this line
+  <pre><code>{gnn.load_state_dict(torch.load('model_best_online.pth.tar')['state_dict'])}</code></pre>
+  <pre><code>{gnn.load_state_dict(torch.load('model_best.pth.tar')['state_dict'])}</code></pre>
+
+1. python online_demo_imgcv.py
+  * check output images in testimg>output
+  
+2. python online_demo_framecv.py
+  * online demo by webcam
